@@ -1,5 +1,6 @@
 ---
 title: Hexo的国际化
+categories: [hexo]
 ---
 
 # Hexo的国际化
