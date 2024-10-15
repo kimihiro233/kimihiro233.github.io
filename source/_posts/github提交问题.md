@@ -20,3 +20,12 @@ fatal: unable to access 'https://github.com/kimihiro233/kimihiro233.github.io.gi
 在ToolBox里设置的代理之后，似乎是稳定了，先观察一段时间，继续解决ssh拉取问题
 
 现在webstorm中无法直接设置ssh配置，找找思路
+
+在.ssh/config中添加配置之后，webstorm就可以正常连接github的ssh服务了
+配置如下
+```
+Host github.com
+       HostName github.com
+       User git
+       IdentityFile ~/.ssh/id_rsa
+```
