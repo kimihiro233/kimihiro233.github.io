@@ -13,3 +13,7 @@ fatal: unable to access 'https://github.com/kimihiro233/kimihiro233.github.io.gi
 ```
 
 目前还没有好的解决办法
+
+尝试切换到ssh拉取的方式，也许可以规避掉无法连接的问题
+
+突然发现通过idea Tools打开会继承代理设置，尝试一下
