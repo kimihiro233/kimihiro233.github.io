@@ -17,3 +17,6 @@ fatal: unable to access 'https://github.com/kimihiro233/kimihiro233.github.io.gi
 尝试切换到ssh拉取的方式，也许可以规避掉无法连接的问题
 
 突然发现通过idea Tools打开会继承代理设置，尝试一下
+在ToolBox里设置的代理之后，似乎是稳定了，先观察一段时间，继续解决ssh拉取问题
+
+现在webstorm中无法直接设置ssh配置，找找思路
