@@ -42,3 +42,6 @@ window.addEventListener('mousemove', (event) => {
   updateMouseData(event)
 })
 ````
+
+### 细节事项
+`scroll`事件和`requestAnimationFrame`的触发频率是一致的
